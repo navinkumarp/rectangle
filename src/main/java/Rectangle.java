@@ -9,6 +9,6 @@ public class Rectangle {
     }
 
     public float getArea() {
-        return 0;
+        return length * breadth;
     }
 }
