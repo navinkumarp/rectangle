@@ -23,9 +23,9 @@ public class TestRectangle {
     }
 
     @Test
-    public void testRectanglePerimeter_twoAndThree_twelve() {
-        Rectangle rectangle = new Rectangle((float) 3.22,(float) 3.2);
-        Assert.assertEquals(rectangle.getPerimeter() ,10.30, 0.01);
+    public void testRectanglePerimeter_threeAndThree_twelve() {
+        Rectangle rectangle = new Rectangle( 3, 3);
+        Assert.assertEquals(rectangle.getPerimeter() ,12);
     }
 
 

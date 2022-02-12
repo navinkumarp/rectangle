@@ -11,4 +11,8 @@ public class Rectangle {
     public float getArea() {
         return length * breadth;
     }
+
+    public float getPerimeter() {
+        return 2 * (length + breadth);
+    }
 }
