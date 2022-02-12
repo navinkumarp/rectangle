@@ -22,5 +22,11 @@ public class TestRectangle {
         Assert.assertEquals(rectangle.getArea() ,10.30, 0.01);
     }
 
+    @Test
+    public void testRectanglePerimeter_twoAndThree_twelve() {
+        Rectangle rectangle = new Rectangle((float) 3.22,(float) 3.2);
+        Assert.assertEquals(rectangle.getPerimeter() ,10.30, 0.01);
+    }
+
 
 }
