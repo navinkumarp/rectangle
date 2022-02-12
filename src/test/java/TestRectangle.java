@@ -46,4 +46,10 @@ public class TestRectangle {
         Assert.assertEquals(square.calculateArea() ,4);
     }
 
+    @Test
+    public void testSquarePerimeter_ThreePointFour_ThirteenPointSix() {
+        Rectangle square = new Rectangle((float) 3.4);
+        Assert.assertEquals(square.calculatePerimeter() ,13.6, 0.0001);
+    }
+
 }
