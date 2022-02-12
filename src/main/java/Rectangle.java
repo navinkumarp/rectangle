@@ -8,6 +8,11 @@ public class Rectangle {
         this.breadth = breadth;
     }
 
+    public Rectangle(float side) {
+        this.length = side;
+        this.breadth = side;
+    }
+
     public float calculateArea() {
         return length * breadth;
     }

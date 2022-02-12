@@ -46,5 +46,4 @@ public class TestRectangle {
         Assert.assertEquals(square.calculateArea() ,4);
     }
 
-
 }
